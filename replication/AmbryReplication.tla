@@ -8,7 +8,7 @@ EXTENDS Naturals
 (***************************************************************************)
 
 
-(* ISSUES IN THE MODEL: *)
+(* KNOWN ISSUES IN THE MODEL: (fixes are WIP) *)
 (* The sucess target of put, delete and update-ttl operations is not configurable *)
 (* Replication replicates everything in each iteration. It should rather replicate only those blobs that need replication *)
 (* Stored messages per replica don't have ordering. Hence replication is also not ordered. *)
