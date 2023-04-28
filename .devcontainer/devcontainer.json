@@ -1,5 +1,5 @@
 {
-  "name": "TLA+ EWD998",
+  "name": "Ambry TLA+",
 
   // Install optional extension. If this fails, it just degrades the convenience factor.
   "extensions": [

@@ -171,7 +171,7 @@ RecvPut1 ==
  *)
 RecvPut ==
     /\ \E r1, r2 \in Replicas:
-        /\ r1 = r2
+        /\ r1 # r2
         /\ blobIdCtr < NumBlobs
         /\ blobIdCtr' = blobIdCtr + 1
         /\ replicaStates[r1] = CanTakeWrite
